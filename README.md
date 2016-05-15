@@ -12,7 +12,7 @@ This REPO contains the Final Project of "Getting and Cleaning Data" course.
 The original data description may be founded in this url:
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-This original dataset is processed by the file 'run_analysis.R' to achieve the following objectives:
+This original dataset contains two set of information (trainnig an test) an it is processed by the file 'run_analysis.R' to achieve the following objectives:
 
 1) Merges the training and the test sets to create one data set.
 

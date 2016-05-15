@@ -1,90 +1,90 @@
-|             Variable Name           |  R Class            |
-|:------------------------------------|:-------------------:|
-| 1. subject                          | integer             |
-| 1. activity                         | Factor w/ 6 levels  |
-| 1. tbodyaccmeanx                    | numeric             |
-| 1. tbodyaccmeany                    | numeric             |
-| 1. tbodyaccmeanz                    | numeric             |
-| 1. tbodyaccstdx                     | numeric             |
-| 1. tbodyaccstdy                     | numeric             |
-| 1. tbodyaccstdz                     | numeric             |
-| 1. tgravityaccmeanx                 | numeric             |
-| 1. tgravityaccmeany                 | numeric             |
-| 1. tgravityaccmeanz                 | numeric             |
-| 1. tgravityaccstdx                  | numeric             |
-| 1. tgravityaccstdy                  | numeric             |
-| 1. tgravityaccstdz                  | numeric             |
-| 1. tbodyaccjerkmeanx                | numeric             |
-| 1. tbodyaccjerkmeany                | numeric             |
-| 1. tbodyaccjerkmeanz                | numeric             |
-| 1. tbodyaccjerkstdx                 | numeric             |
-| 1. tbodyaccjerkstdy                 | numeric             |
-| 1. tbodyaccjerkstdz                 | numeric             |
-| 1. tbodygyromeanx                   | numeric             |
-| 1. tbodygyromeany                   | numeric             |
-| 1. tbodygyromeanz                   | numeric             |
-| 1. tbodygyrostdx                    | numeric             |
-| 1. tbodygyrostdy                    | numeric             |
-| 1. tbodygyrostdz                    | numeric             |
-| 1. tbodygyrojerkmeanx               | numeric             |
-| 1. tbodygyrojerkmeany               | numeric             |
-| 1. tbodygyrojerkmeanz               | numeric             |
-| 1. tbodygyrojerkstdx                | numeric             |
-| 1. tbodygyrojerkstdy                | numeric             |
-| 1. tbodygyrojerkstdz                | numeric             |
-| 1. tbodyaccmagmean                  | numeric             |
-| 1. tbodyaccmagstd                   | numeric             |
-| 1. tgravityaccmagmean               | numeric             |
-| 1. tgravityaccmagstd                | numeric             |
-| 1. tbodyaccjerkmagmean              | numeric             |
-| 1. tbodyaccjerkmagstd               | numeric             |
-| 1. tbodygyromagmean                 | numeric             |
-| 1. tbodygyromagstd                  | numeric             |
-| 1. tbodygyrojerkmagmean             | numeric             |
-| 1. tbodygyrojerkmagstd              | numeric             |
-| 1. fbodyaccmeanx                    | numeric             |
-| 1. fbodyaccmeany                    | numeric             |
-| 1. fbodyaccmeanz                    | numeric             |
-| 1. fbodyaccstdx                     | numeric             |
-| 1. fbodyaccstdy                     | numeric             |
-| 1. fbodyaccstdz                     | numeric             |
-| 1. fbodyaccmeanfreqx                | numeric             |
-| 1. fbodyaccmeanfreqy                | numeric             |
-| 1. fbodyaccmeanfreqz                | numeric             |
-| 1. fbodyaccjerkmeanx                | numeric             |
-| 1. fbodyaccjerkmeany                | numeric             |
-| 1. fbodyaccjerkmeanz                | numeric             |
-| 1. fbodyaccjerkstdx                 | numeric             |
-| 1. fbodyaccjerkstdy                 | numeric             |
-| 1. fbodyaccjerkstdz                 | numeric             |
-| 1. fbodyaccjerkmeanfreqx            | numeric             |
-| 1. fbodyaccjerkmeanfreqy            | numeric             |
-| 1. fbodyaccjerkmeanfreqz            | numeric             |
-| 1. fbodygyromeanx                   | numeric             |
-| 1. fbodygyromeany                   | numeric             |
-| 1. fbodygyromeanz                   | numeric             |
-| 1. fbodygyrostdx                    | numeric             |
-| 1. fbodygyrostdy                    | numeric             |
-| 1. fbodygyrostdz                    | numeric             |
-| 1. fbodygyromeanfreqx               | numeric             |
-| 1. fbodygyromeanfreqy               | numeric             |
-| 1. fbodygyromeanfreqz               | numeric             |
-| 1. fbodyaccmagmean                  | numeric             |
-| 1. fbodyaccmagstd                   | numeric             |
-| 1. fbodyaccmagmeanfreq              | numeric             |
-| 1. fbodybodyaccjerkmagmean          | numeric             |
-| 1. fbodybodyaccjerkmagstd           | numeric             |
-| 1. fbodybodyaccjerkmagmeanfreq      | numeric             |
-| 1. fbodybodygyromagmean             | numeric             |
-| 1. fbodybodygyromagstd              | numeric             |
-| 1. fbodybodygyromagmeanfreq         | numeric             |
-| 1. fbodybodygyrojerkmagmean         | numeric             |
-| 1. fbodybodygyrojerkmagstd          | numeric             |
-| 1. fbodybodygyrojerkmagmeanfreq     | numeric             |
-| 1. angletbodyaccmeangravity         | numeric             |
-| 1. angletbodyaccjerkmeangravitymean | numeric             |
-| 1. angletbodygyromeangravitymean    | numeric             |
-| 1. angletbodygyrojerkmeangravitymean| numeric             |
-| 1. anglexgravitymean                | numeric             |
-| 1. angleygravitymean                | numeric             |
-| 1. anglezgravitymean                | numeric             |
+|           Variable Name         |  R Class            |
+|:--------------------------------|:-------------------:|
+|subject                          | integer             |
+|activity                         | Factor w/ 6 levels  |
+|tbodyaccmeanx                    | numeric             |
+|tbodyaccmeany                    | numeric             |
+|tbodyaccmeanz                    | numeric             |
+|tbodyaccstdx                     | numeric             |
+|tbodyaccstdy                     | numeric             |
+|tbodyaccstdz                     | numeric             |
+|tgravityaccmeanx                 | numeric             |
+|tgravityaccmeany                 | numeric             |
+|tgravityaccmeanz                 | numeric             |
+|tgravityaccstdx                  | numeric             |
+|tgravityaccstdy                  | numeric             |
+|tgravityaccstdz                  | numeric             |
+|tbodyaccjerkmeanx                | numeric             |
+|tbodyaccjerkmeany                | numeric             |
+|tbodyaccjerkmeanz                | numeric             |
+|tbodyaccjerkstdx                 | numeric             |
+|tbodyaccjerkstdy                 | numeric             |
+|tbodyaccjerkstdz                 | numeric             |
+|tbodygyromeanx                   | numeric             |
+|tbodygyromeany                   | numeric             |
+|tbodygyromeanz                   | numeric             |
+|tbodygyrostdx                    | numeric             |
+|tbodygyrostdy                    | numeric             |
+|tbodygyrostdz                    | numeric             |
+|tbodygyrojerkmeanx               | numeric             |
+|tbodygyrojerkmeany               | numeric             |
+|tbodygyrojerkmeanz               | numeric             |
+|tbodygyrojerkstdx                | numeric             |
+|tbodygyrojerkstdy                | numeric             |
+|tbodygyrojerkstdz                | numeric             |
+|tbodyaccmagmean                  | numeric             |
+|tbodyaccmagstd                   | numeric             |
+|tgravityaccmagmean               | numeric             |
+|tgravityaccmagstd                | numeric             |
+|tbodyaccjerkmagmean              | numeric             |
+|tbodyaccjerkmagstd               | numeric             |
+|tbodygyromagmean                 | numeric             |
+|tbodygyromagstd                  | numeric             |
+|tbodygyrojerkmagmean             | numeric             |
+|tbodygyrojerkmagstd              | numeric             |
+|fbodyaccmeanx                    | numeric             |
+|fbodyaccmeany                    | numeric             |
+|fbodyaccmeanz                    | numeric             |
+|fbodyaccstdx                     | numeric             |
+|fbodyaccstdy                     | numeric             |
+|fbodyaccstdz                     | numeric             |
+|fbodyaccmeanfreqx                | numeric             |
+|fbodyaccmeanfreqy                | numeric             |
+|fbodyaccmeanfreqz                | numeric             |
+|fbodyaccjerkmeanx                | numeric             |
+|fbodyaccjerkmeany                | numeric             |
+|fbodyaccjerkmeanz                | numeric             |
+|fbodyaccjerkstdx                 | numeric             |
+|fbodyaccjerkstdy                 | numeric             |
+|fbodyaccjerkstdz                 | numeric             |
+|fbodyaccjerkmeanfreqx            | numeric             |
+|fbodyaccjerkmeanfreqy            | numeric             |
+|fbodyaccjerkmeanfreqz            | numeric             |
+|fbodygyromeanx                   | numeric             |
+|fbodygyromeany                   | numeric             |
+|fbodygyromeanz                   | numeric             |
+|fbodygyrostdx                    | numeric             |
+|fbodygyrostdy                    | numeric             |
+|fbodygyrostdz                    | numeric             |
+|fbodygyromeanfreqx               | numeric             |
+|fbodygyromeanfreqy               | numeric             |
+|fbodygyromeanfreqz               | numeric             |
+|fbodyaccmagmean                  | numeric             |
+|fbodyaccmagstd                   | numeric             |
+|fbodyaccmagmeanfreq              | numeric             |
+|fbodybodyaccjerkmagmean          | numeric             |
+|fbodybodyaccjerkmagstd           | numeric             |
+|fbodybodyaccjerkmagmeanfreq      | numeric             |
+|fbodybodygyromagmean             | numeric             |
+|fbodybodygyromagstd              | numeric             |
+|fbodybodygyromagmeanfreq         | numeric             |
+|fbodybodygyrojerkmagmean         | numeric             |
+|fbodybodygyrojerkmagstd          | numeric             |
+|fbodybodygyrojerkmagmeanfreq     | numeric             |
+|angletbodyaccmeangravity         | numeric             |
+|angletbodyaccjerkmeangravitymean | numeric             |
+|angletbodygyromeangravitymean    | numeric             |
+|angletbodygyrojerkmeangravitymean| numeric             |
+|anglexgravitymean                | numeric             |
+|angleygravitymean                | numeric             |
+|anglezgravitymean                | numeric             |

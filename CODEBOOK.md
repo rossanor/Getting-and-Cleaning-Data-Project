@@ -7,11 +7,11 @@ The dataset here presented (**'tidy_data.txt'**) is derived from a original data
 
 The the original data, briefly, may be described as the measures obtained by the accelerometer and gyroscope inside the smartphones used by 30 volunteers while they performed six activities: WALKING, WALKING UPSTAIRS, WALKING DOWNSTAIRS, SITTING, STANDING, LAYING.
 
-The 'tidy_data.txt' presents the mean value, grouped by activity and subject, of each original measures. The original variables used was the ones that was the mean or standard variation of any measure.
+The **'tidy_data.txt'** presents the mean value, grouped by activity and subject, of each original measures. The original variables used was the ones that was the mean or standard variation of any measure.
 
 The variables names of derived dataset is similar to the original ones. The changes mades are:
-..* Lowercase of the original names
-..* The characters '(', ')', '-' and ',' were deleted.
+* Lowercase of the original names
+* The characters '(', ')', '-' and ',' were deleted.
 
 The original names and the meaning of each variable are in the files 'features.txt' and 'features_info.txt' avaiable in the original dataset.
 

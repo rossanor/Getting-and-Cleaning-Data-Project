@@ -10,14 +10,13 @@
 #
 ###########################################################################################
 library(dplyr) # group_by , %>%
-setwd("C:/Users/RossanoMarchetti/Desktop/CURSOS/Curso R Cousera/CursoCertificado 02_getting and cleaning data/projeto_final")
 
 #########################################################3
 # download e abre arquivo
 if (!file.exists("UCI HAR Dataset")) {
-  message("\nN„o existe a pasta 'UCI HAR Dataset'. Verificando a necessidade de Download.\n")
+  message("\nN√£o existe a pasta 'UCI HAR Dataset'. Verificando a necessidade de Download.\n")
   if (!file.exists("dataset.zip")) {
-    message("\nArquivo n„o baixado. Fazendo o Download...\n")
+    message("\nArquivo n√£o baixado. Fazendo o Download...\n")
     download.file("https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip",
                   destfile = "dataset.zip")
   }
@@ -38,7 +37,7 @@ features <- read.table("./UCI HAR Dataset/features.txt",
 features.wanted <- grep("[Mm]ean|[Ss]td", features[,2])
 
 # test
-test.sub <- read.table("UCI HAR Dataset/test/subject_test.txt") # indivÌduo
+test.sub <- read.table("UCI HAR Dataset/test/subject_test.txt") # indiv√≠duo
 test.x   <- read.table("UCI HAR Dataset/test/X_test.txt") # 561 medidas / measurements
 test.y   <- read.table("UCI HAR Dataset/test/y_test.txt") # 1 a 6: indexando activity labels
 
@@ -52,9 +51,9 @@ dim(train.sub); dim(train.x); dim(train.y)
 
 # merge 
 df01 <- as.data.frame(
-  rbind(cbind(test.sub,               # indivÌduo 
+  rbind(cbind(test.sub,               # indiv√≠duo 
               test.y,                 # atividade 
-              test.x[features.wanted]), # vari·veis com 'mean' e 'std'
+              test.x[features.wanted]), # vari√°veis com 'mean' e 'std'
         cbind(train.sub, 
               train.y, 
               train.x[features.wanted])))

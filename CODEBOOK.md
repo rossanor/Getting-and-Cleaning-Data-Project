@@ -1,4 +1,23 @@
-|           Variable Name         |  R Class            |
+## CODEBOOK
+
+The dataset here presented (**'tidy_data.txt') is derived from the original obtained from "Human Activity Recognition Using Smartphones Data Set". 
+
+..* Full description: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+..* It was downloaded in may/2016 from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+The the original data, briefly, may be described as the measures obtained by the accelerometer and gyroscope inside the smartphones used by 30 volunteers while they performed six activities: WALKING, WALKING UPSTAIRS, WALKING DOWNSTAIRS, SITTING, STANDING, LAYING.
+
+The 'tidy_data.txt' presents the mean value, grouped by activity and subject, of each original measures. The original variables used was the ones that was the mean or standard variation of any measure.
+
+The variables names of derived dataset is similar to the original ones. The changes mades are:
+..* Lowercase of the original names
+..* The characters '(', ')', '-' and ',' were deleted.
+
+The original names and the meaning of each variable are in the files 'features.txt' and 'features_info.txt' avaiable in the original dataset.
+
+The variables names of derived dataset are:
+
+|           Variable Name         |       R Class       |
 |:--------------------------------|:-------------------:|
 |subject                          | integer             |
 |activity                         | Factor w/ 6 levels  |

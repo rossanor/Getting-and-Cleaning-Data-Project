@@ -83,4 +83,4 @@ tidy <-
   group_by(subject, activity) %>%
   summarise_each(funs(mean))
 
-write.table(tidy, "tidy_data.txt")
+write.table(tidy, "tidy_data.txt", row.name = FALSE)

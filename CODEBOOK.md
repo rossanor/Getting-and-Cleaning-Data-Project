@@ -1,6 +1,6 @@
 ## CODEBOOK
 
-The dataset here presented (**'tidy_data.txt'**) is derived from the original obtained from "Human Activity Recognition Using Smartphones Data Set". 
+The dataset here presented (**'tidy_data.txt'**) is derived from a original dataset called "Human Activity Recognition Using Smartphones Data Set". 
 
 ..* Full description: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 ..* It was downloaded in may/2016 from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip

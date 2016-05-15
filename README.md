@@ -4,10 +4,10 @@
 This REPO contains the Final Project of "Getting and Cleaning Data" course. 
 
 ## This REPO contains 4 files:
-- 'run_analysis.R': the R script that have produced the tidy data from another data avaiable on "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip". Id downloads the original dataset and process the files.
-- 'tidy_data.txt': the data organized and ready to be used in other analysis
-- 'CODEBOOK.md': a reference to the variables presents on the 'tidy_data.txt'
-- 'README.md': this file. Explain this REPO and files presents, how they are connected and how to use it.
+- *'run_analysis.R'*: the R script that have produced the tidy data from another data avaiable on "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip". Id downloads the original dataset and process the files.
+- *'tidy_data.txt'*: the data organized and ready to be used in other analysis
+- *'CODEBOOK.md'*: a reference to the variables presents on the 'tidy_data.txt'
+- _'README.md'_: this file. Explain this REPO and files presents, how they are connected and how to use it.
 
 The original data description may be founded in this url:
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
